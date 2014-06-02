@@ -1,0 +1,113 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{green}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Emilia}{Haligowska}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{ul.Wallenroda 1m.5}{80-438 Gdańsk}{Polska}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
+\phone[mobile]{~511~926~146}                   % optional, remove / comment the line if not wanted; the optional "type" of the phone can be "mobile" (default), "fixed" or "fax"
+\email{emilahaligowska@gmail.com}                               % optional, remove / comment the line if not wanted
+
+\photo[30pt][0]{Untitled2.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Edukacja}
+\cventry{2012--}{Politechnika Gdańska}{}{Gdańsk}{\textit{w trakcie}}{Kierunek: Fizyka, specjalizacja: Informatyka Stosowana}
+\cventry{2011--}{Politechnika Gdańska}{}{Gdańsk}{\textit{w trakcie}}{Kierunek: Matematyka, specjalizacja: Biomatematyka}
+\cventry{2008-2011}{III LO im. Marynarki Wojennej RP}{}{Gdynia}{\textit{}}{profil matematyczno-informatyczny}  % arguments 3 to 6 can be left empty
+\subsection{Kursy}
+\cventry{IV 2012 - V~2012}{Szkolenie}{LABELPOLAND.COM}{Sopot}{}{\emph{CorelDRAW i Adobe Photoshop jako narzędzia DTP}.\newline{}%
+}
+
+\section{Doświadczenie zawodowe}
+
+\cventry{IX~2013 - VI~2014}{Szkoła Językow Obcych MOOSE}{}{Gdańsk}{}{
+Zakres obowiązków:%
+\begin{itemize}%
+\item lektor jezyka angielskiego.
+\end{itemize}}
+
+
+\cventry{VIII~2013}{Centralne Laboratorium Kliniczne}{}{Gdańsk}{}{
+Zakres obowiązków:%
+\begin{itemize}%
+\item rejestracja materiałów biologicznych w programie Lab3000
+\item tworzenie raportów w programie Lab3000
+\item edycja szablonów sprawozdań laboratoryjnych w programie Lab3000
+\item prace biurowe
+\end{itemize}}
+
+\cventry{IX~2011 - V~2012 }{Skład Elementów Elektronicznych APROVI}{}{Gdańsk}{}{
+Zakres obowiązków:%
+\begin{itemize}%
+\item tłumaczenie z języka angielskiego
+\item sprzątanie
+\item pomoc przy przyjmowaniu towaru
+.
+\end{itemize}}
+
+\cventry{VII~2011- VIII~2011}{Restauracja GOŁĘBNIK}{}{Nowęcin k.Łeby}{}{
+Zakres obowiązków:%
+\begin{itemize}%
+\item obsługa klientów
+\item obsługa baru
+\item obsługa kasy fiskalnej.
+\end{itemize}}
+
+
+
+
+\section{J\k{e}zyki}
+\cvitemwithcomment{Angielski}{Zaawansowany}{Certyfikat CAE}
+\cvitemwithcomment{Niemiecki}{Średniozaawansowany}{Poziom B2}
+
+\section{Umiejętności komputerowe}
+\cvdoubleitem{Języki~programowania}{podstawy C, podstawy C++, SQL,podstawy Java}{}{}
+\cvdoubleitem{Programy graficzne}{Adobe Photoshop, CorelDRAW}{}{}
+
+\section{Zainteresowania}
+\cvitem{Jazda Konna}{}
+\cvitem{Podróże}{}
+\cvitem{Książki}{Różna tematyka, głównie obyczajowe i o tematyce wojennej}
+
+\end{document}
+
+%% end of file `template.tex'.
